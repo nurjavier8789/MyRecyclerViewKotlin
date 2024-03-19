@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
 
         listHeroAdapter.setOnItemClickCallback(object : ListHeroAdapter.OnItemClickCallback {
             override fun onItemClicked(data: Hero) {
-                setContentView(R.layout.details)
+//                setContentView(R.layout.details)
                 showSelectedHero(data)
             }
         })
